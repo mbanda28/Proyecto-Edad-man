@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32">
+  
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>D
+<body>
+  <section class="container">
+
+    <form action="submit" class="age">
+      <div class="day">
+        <p class="alert-day">DAY</p>
+        <input type="text" placeholder="DD" class="inp-day">
+        <p class="field inactive">This field is required</p>
+      </div>
+      <div class="month">
+        <p class="alert-month">MONTH</p>
+        <input type="text" placeholder="MM" class="inp-month">
+        <p class="field1 inactive">This field is required</p>
+      </div>
+      <div class="year">
+        <p class="alert-year">YEAR</p>
+        <input type="text" placeholder="YYYY" class="inp-year">
+        <p class="field2 inactive">This field is required</p>
+      </div>
+    </form>
+
+    <div class="divisor">
+      <hr> <img src="./assets/images/icon-arrow.svg">
+    </div>
+
+    <div class="result">
+        <p> <span class="r-year">--</span> years</p>
+        <p> <span class="r-month">--</span> months</p>
+        <p> <span class="r-day">--</span> days</p>
+    </div>
+
+  </section>
+  
+  <script src="./app.js"></script>
+  
+</body>
+</html>
